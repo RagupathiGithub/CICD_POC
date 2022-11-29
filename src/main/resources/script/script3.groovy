@@ -15,7 +15,7 @@ def Message processData(Message message) {
      def body = message.getBody();
      //String key = "jXn2r5u8x!A%D*G-"; // 128 bit key
     
-    /* String key = "A?D(G-KaPdSgVkYp";
+    /* String key = "A?D(G-KaPdSgVkYp"; testing
      Key aesKey = new SecretKeySpec(key.getBytes(), "AES");
      Cipher cipher = Cipher.getInstance("AES");
      cipher.init(Cipher.DECRYPT_MODE, aesKey);
